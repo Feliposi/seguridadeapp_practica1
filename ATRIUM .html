@@ -180,7 +180,6 @@
                         },
                         success: function (data) {
                             var res = JSON.parse(data);// $.parseJSON(data);
-                            $("#imgProfile").attr("src",res.url);
                         },
                         error: function (e) {
                             $('#error').html("<center><div class='alert alert-info' role='alert'>Error en el servidor, por favor, intentalo de nuevo mas tarde</div></center>");
